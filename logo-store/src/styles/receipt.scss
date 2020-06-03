@@ -1,0 +1,23 @@
+.receipt {
+    width: 80%;
+    margin-top: 20px;
+
+    background: azure;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.receipt-item {
+    width: 100%;
+    height: 40px;
+
+    box-sizing: border-box;
+
+    padding: 0 10px;
+    border-bottom: 1px solid #222239;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

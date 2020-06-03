@@ -3,48 +3,48 @@
         "name": "Item 1",
         "price": 100,
         "description": "",
-        "uuid": ""
+        "uuid": "001"
     },
     {
         "name": "Item 2",
         "price": 200,
         "description": "",
-        "uuid": ""
+        "uuid": "002"
     },
     {
         "name": "Item 3",
         "price": 300,
         "description": "",
-        "uuid": ""
+        "uuid": "003"
     },
     {
         "name": "Item 4",
         "price": 400,
         "description": "",
-        "uuid": ""
+        "uuid": "004"
     },
     {
         "name": "Item 5",
         "price": 500,
         "description": "",
-        "uuid": ""
+        "uuid": "005"
     },
     {
         "name": "Item 6",
         "price": 600,
         "description": "",
-        "uuid": ""
+        "uuid": "006"
     },
     {
         "name": "Item 7",
         "price": 700,
         "description": "",
-        "uuid": ""
+        "uuid": "007"
     },
     {
         "name": "Item 8",
         "price": 800,
         "description": "",
-        "uuid": ""
+        "uuid": "008"
     }
 ]

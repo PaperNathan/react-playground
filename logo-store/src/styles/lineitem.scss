@@ -1,0 +1,35 @@
+.line-item {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+
+    background: azure;
+
+    box-shadow: 6px 6px 6px #00000088;
+    transition: box-shadow .2s;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 0px #000;
+        transition: box-shadow .2s;
+    }
+}
+
+.item-count {
+    height: 20px;
+    width: 20px;
+
+    border-radius: 100%;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    background: limegreen;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

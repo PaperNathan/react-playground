@@ -9,7 +9,7 @@ class Track extends React.Component {
         return (
             <div className="track">
                 {data.map((item, i) => {
-                    return <LineItem info={item} imgSeed={i} addLineItem={this.props.addLineItem} />
+                    return <LineItem key={i} info={item} imgSeed={i} addLineItem={this.props.addLineItem} />
                 })}
             </div>
         )
