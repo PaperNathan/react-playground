@@ -1,0 +1,43 @@
+[
+    {
+        "name": "screwdriver",
+        "key": "000",
+        "ingredients": ["vodka", "orange-juice"],
+        "amounts": [2, 3],
+        "units": "shots",
+        "cost": 2.50
+    },
+    {
+        "name": "danny-ocean",
+        "key": "001",
+        "ingredients": ["tequila", 
+                        "lemon-juice", 
+                        "grapefruit-juice", 
+                        "agave-nectar",
+                        "maraschino-liqueur"],
+        "amounts": [1.5, 0.75, 0.75, 0.5, 0.25],
+        "units": "parts",
+        "cost": 8.00
+    },
+    {
+        "name": "friskey-whiskey",
+        "key": "002",
+        "ingredients": ["whiskey", 
+                        "orange-juice", 
+                        "simple-syrup",
+                        "honey-liqueur",
+                        "bitters"],
+        "amounts": [1.5, 0.75, 0.75, 0.5, 0.25],
+        "units": "parts",
+        "cost": 6.00
+    },
+    {
+        "name": "green-tea-highball",
+        "key": "003",
+        "ingredients": ["whiskey", 
+                        "green-tea"],
+        "amounts": [2, 2],
+        "units": "ounces",
+        "cost": 4.00
+    }
+]

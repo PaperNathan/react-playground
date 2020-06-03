@@ -1,0 +1,11 @@
+.search-bar {
+    height: 40px;
+    width: 400px;
+
+    padding: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+}

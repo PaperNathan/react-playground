@@ -1,0 +1,8 @@
+{
+  "short_name": "Sploosh Kaboom",
+  "name": "Wind Waker: Sploosh Kaboom",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

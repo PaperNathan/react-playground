@@ -1,0 +1,65 @@
+/* Base Divs and Text */
+.buttonB {
+    height: 60px;
+    width: 180px;
+    
+    position: relative;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonB-text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    
+    position: absolute;
+    z-index: 2;
+}
+
+.squareB {
+    height: 0px;
+    width: 0px;
+    
+    background: #F012BE;
+}
+
+/* Mouse Over */
+.buttonB:hover {
+    cursor: pointer;
+}
+
+.buttonB:hover .button-text {
+    color: white;
+    transition: color .2s;
+}
+
+.buttonB:hover .squareB {
+    animation-name: squareBSpin;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+
+/* Mouse Out */
+.buttonB:not( :hover ) .squareB {
+    animation-name: squareBReturn;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+
+/* On Click */
+.buttonB:active .squareB {
+    background: #85144b;
+}
+
+/* Animations */
+@keyframes squareBSpin {
+    0% {height: 0px; width: 0px; transform: rotate(0deg);}
+    100% {height: 60px; width: 60px; transform: rotate(90deg);}
+}
+
+@keyframes squareBReturn {
+    0% {height: 60px; width: 60px; transform: rotate(90deg);}
+    100% {height: 0px; width: 0px; transform: rotate(0deg);}
+}

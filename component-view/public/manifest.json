@@ -1,0 +1,8 @@
+{
+  "short_name": "Component Library",
+  "name": "React Component Library",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

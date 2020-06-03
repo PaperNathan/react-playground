@@ -1,0 +1,86 @@
+.cup-mask {
+    height: 180px;
+    width: 180px;
+    clip-path: polygon(20% 0, 80% 0, 70% 100%, 30% 100%);
+}
+
+.drink {
+    height: 180px;
+    width: 180px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients {
+    width: 100%;
+}
+
+.ingredient-info {
+    display: flex;
+    align-items: center;
+}
+
+.ingredient-shape {
+    height: 20px;
+    width: 20px;
+
+    margin: 5px;
+
+    border-radius: 100%;
+}
+
+/* Liquor */
+.vodka {
+    background: #ccccff;
+}
+
+.whiskey {
+    background: brown;
+}
+
+.tequila {
+    background: yellow;
+}
+
+
+/* Juice and Tea */
+.orange-juice {
+    background: #ffa500 ;
+}
+
+.lemon-juice {
+    background: lightyellow;
+}
+
+.grapefruit-juice {
+    background: salmon;
+}
+
+.agave-nectar {
+    background: brown;
+}
+
+.green-tea {
+    background: lightgreen;
+}
+
+
+/* Liqueur */
+.maraschino-liqueur {
+    background: crimson;
+}
+
+.honey-liqueur {
+    background: lightsalmon;
+}
+
+
+/* Others */
+.bitters {
+    background: lightgreen;
+}
+
+.simple-syrup {
+    background: #ccccff;
+}

@@ -1,0 +1,10 @@
+.drink-container {
+    height: 200px;
+    width: 200px;
+
+    background: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
