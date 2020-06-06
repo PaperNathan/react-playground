@@ -4,7 +4,7 @@ import './buttonA.css';
 class ButtonA extends React.Component {
     render() {
         return(
-            <div className='buttonA'>
+            <div className='buttonA' onClick={this.props.handleClick}>
                 <div className="squareA"></div>
                 <div className="squareA"></div>
                 <div className="squareA"></div>

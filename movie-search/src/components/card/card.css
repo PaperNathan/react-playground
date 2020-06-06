@@ -1,0 +1,19 @@
+.card {
+    height: 50px;
+    width: 500px;
+
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 5px 0;
+  
+    background: azure;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    height: 40px;
+    width: auto;
+}

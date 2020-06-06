@@ -3,10 +3,12 @@ import './App.css';
 
 import Layout from './components/Layout';
 
-function App() {
-  return (
-    <Layout />
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Layout />
+    );
+  }
 }
 
 export default App;
