@@ -1,3 +1,13 @@
+.imdb-link {
+    text-decoration: none;
+}
+
+.imdb-link:hover > .card {
+    cursor: pointer;
+    background: lightblue;
+    transition: background .2s;
+}
+
 .card {
     height: 50px;
     width: 500px;
@@ -9,11 +19,20 @@
     background: azure;
   
     display: flex;
-    justify-content: space-between;
     align-items: center;
+
+    transition: background .2s;
+}
+
+.card-title {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
 }
 
 .card img {
     height: 40px;
     width: auto;
+
+    margin-right: 10px;
 }

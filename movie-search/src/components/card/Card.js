@@ -6,11 +6,12 @@ class Card extends React.Component {
     render() {
         let { Poster, Title, imdbID } = this.props.data
         return (
-            <div className="card">
-                <img src={Poster} alt="movie-poster"/>
-                <p>{Title}</p>
-                <a href={'https://www.imdb.com/title/' + imdbID}>IMDB</a>
-            </div>
+            <a className="imdb-link" href={'https://www.imdb.com/title/' + imdbID}>
+                <div className="card">
+                    <img src={Poster} alt="movie-poster"/>
+                    <p className="card-title">{Title}</p>
+                </div>
+            </a>
         )
     }
 }

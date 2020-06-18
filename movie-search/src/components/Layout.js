@@ -28,13 +28,17 @@ class Layout extends React.Component {
     }
 
     getMovie = () => {
-        let req = "http://www.omdbapi.com/?apikey=" + secret.key + "&" + this.state.movie;
-        fetch(req)
-            .then(res => res.json())
-            .then(data => {
-                console.log(data.Search);
-                this.buildCards(data.Search)
-            });
+        if (this.state.movie !== "") {
+            let req = "http://www.omdbapi.com/?apikey=" + secret.key + "&" + this.state.movie;
+            fetch(req)
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data.Search);
+                    this.buildCards(data.Search)
+                });
+        } else {
+            console.log('You need to enter a movie title');
+        }
     }
 
     render() {
